@@ -7,11 +7,11 @@ require "gem_exec/version"
 Gem::Specification.new do |spec|
   spec.name = "gem-exec"
   spec.version = GemExec::VERSION
-  spec.authors = ["Your name here"]
-  spec.email = ["Your email here"]
+  spec.authors = ["Emile Bosch"]
+  spec.email = ["emilebosch@me.com"]
 
-  spec.summary = "Add a summary"
-  spec.description = "Add a description"
+  spec.summary = "NPX like generator"
+  spec.description = "Install a gem and execute the command"
   spec.license = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
