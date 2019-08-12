@@ -1,11 +1,12 @@
 class Gem::Commands::ExecCommand < Gem::Command
   def initialize
-    super("exec", "Add a description here")
+    super("exec", "Install a gem and execute")
   end
 
   def execute
-    # here goes the code that will be executed
-    # when someone runs "gem exec"
-    say "It works!"
+    a = options[:args].dup
+    g = a.shift
+    system("gem", "install", g)
+    system(g, *a)
   end
 end
