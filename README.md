@@ -1,6 +1,7 @@
 # Simple NPX like gem execution
 
 Just downloads the gem, and executes the command.
+So easy!
 
 ```
 gem install gem-exec
