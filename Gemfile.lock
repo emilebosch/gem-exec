@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    gem-exec (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.14.0)
+    rake (13.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  gem-exec!
+  minitest (~> 5.0)
+  rake
+
+BUNDLED WITH
+   2.0.2

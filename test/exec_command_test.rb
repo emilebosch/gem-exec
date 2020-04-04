@@ -1,8 +1,8 @@
-require 'minitest/autorun'
-require 'rubygems/command_manager'
-require 'rubygems/test_case'
+require "minitest/autorun"
+require "rubygems/command_manager"
+require "rubygems/test_case"
 
-require_relative '../lib/rubygems/commands/exec_command'
+require_relative "../lib/rubygems/commands/exec_command"
 
 class ExecCommandTest < Gem::TestCase
   def setup
